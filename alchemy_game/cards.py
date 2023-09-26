@@ -1,17 +1,20 @@
-from typing import NamedTuple
+from dataclasses import dataclass
 
 from alchemy_game.utils import CardValues
 
 
-class Card(NamedTuple):
+@dataclass
+class Card:
     name: str
 
 
+@dataclass
 class Artefact(Card):
     biome: str
     text: str
 
 
+@dataclass
 class Ingredient(Card):
     biome: str
     bleeding: CardValues
@@ -20,6 +23,7 @@ class Ingredient(Card):
     congestion: CardValues
 
 
+@dataclass
 class Potion(Ingredient):
     pass
 

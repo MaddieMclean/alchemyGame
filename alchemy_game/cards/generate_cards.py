@@ -1,5 +1,6 @@
 import json
 from itertools import product
+from dataclasses import asdict
 
 from alchemy_game.cards import Ingredient
 from alchemy_game.utils import CardValues
@@ -14,7 +15,7 @@ def generate_ingredients():
     ]
 
     with open("Ingredients.json", "w") as f:
-        json.dump([c._asdict() for c in cards], f, indent=4)
+        json.dump([asdict(c) for c in cards], f, indent=4, default=lambda x: x.value)
 
 
 if __name__ == "__main__":
