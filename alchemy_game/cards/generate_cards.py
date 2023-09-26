@@ -1,32 +1,21 @@
 import json
-from typing import NamedTuple
 from itertools import product
 
-from enum import IntEnum
+from alchemy_game.cards import Ingredient
+from alchemy_game.utils import CardValues
 
 
-class CardValues(IntEnum):
-    negative = -1
-    neutral = 0
-    positive = 1
+def generate_ingredients():
+    cards = [
+        Ingredient(
+            name="", biome="", bleeding=b, temperature=t, sensitivity=s, congestion=c
+        )
+        for b, t, s, c in product(CardValues, repeat=4)
+    ]
 
-
-class Card(NamedTuple):
-    name: str
-    biome: str
-    bleeding: CardValues
-    temperature: CardValues
-    sensitivity: CardValues
-    congestion: CardValues
-
-
-def generate_cards():
-    cards = [Card(name="", biome="", bleeding=b, temperature=t, sensitivity=s, congestion=c)
-             for b, t, s, c in product(CardValues, repeat=4)]
-
-    with open("Cards.json", "w") as f:
+    with open("Ingredients.json", "w") as f:
         json.dump([c._asdict() for c in cards], f, indent=4)
 
 
-if __name__ == '__main__':
-    generate_cards()
+if __name__ == "__main__":
+    generate_ingredients()
