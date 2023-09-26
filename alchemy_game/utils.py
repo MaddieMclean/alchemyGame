@@ -10,9 +10,16 @@ class CardValues(Enum):
 
     def __add__(self, other) -> CardValues:
         if self.__class__ is other.__class__:
-            return self.clamp(self.value + other.value)
+            return self._clamp(self.value + other.value)
+        return NotImplemented
+
+    def __eq__(self, other) -> bool:
+        if self.__class__ is other.__class__:
+            return self.value == other.value
         return NotImplemented
 
     @staticmethod
-    def clamp(n: int) -> CardValues:
-        return CardValues(max(int(CardValues.negative), min(n, int(CardValues.positive))))
+    def _clamp(n: int) -> CardValues:
+        return CardValues(
+            max(int(CardValues.negative), min(n, int(CardValues.positive)))
+        )

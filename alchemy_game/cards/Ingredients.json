@@ -2,649 +2,811 @@
     {
         "name": "",
         "biome": "",
-        "bleeding": -1,
-        "temperature": -1,
-        "sensitivity": -1,
-        "congestion": -1
+        "symptoms": {
+            "bleeding": -1,
+            "temperature": -1,
+            "sensitivity": -1,
+            "congestion": -1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": -1,
-        "temperature": -1,
-        "sensitivity": -1,
-        "congestion": 0
+        "symptoms": {
+            "bleeding": -1,
+            "temperature": -1,
+            "sensitivity": -1,
+            "congestion": 0
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": -1,
-        "temperature": -1,
-        "sensitivity": -1,
-        "congestion": 1
+        "symptoms": {
+            "bleeding": -1,
+            "temperature": -1,
+            "sensitivity": -1,
+            "congestion": 1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": -1,
-        "temperature": -1,
-        "sensitivity": 0,
-        "congestion": -1
+        "symptoms": {
+            "bleeding": -1,
+            "temperature": -1,
+            "sensitivity": 0,
+            "congestion": -1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": -1,
-        "temperature": -1,
-        "sensitivity": 0,
-        "congestion": 0
+        "symptoms": {
+            "bleeding": -1,
+            "temperature": -1,
+            "sensitivity": 0,
+            "congestion": 0
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": -1,
-        "temperature": -1,
-        "sensitivity": 0,
-        "congestion": 1
+        "symptoms": {
+            "bleeding": -1,
+            "temperature": -1,
+            "sensitivity": 0,
+            "congestion": 1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": -1,
-        "temperature": -1,
-        "sensitivity": 1,
-        "congestion": -1
+        "symptoms": {
+            "bleeding": -1,
+            "temperature": -1,
+            "sensitivity": 1,
+            "congestion": -1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": -1,
-        "temperature": -1,
-        "sensitivity": 1,
-        "congestion": 0
+        "symptoms": {
+            "bleeding": -1,
+            "temperature": -1,
+            "sensitivity": 1,
+            "congestion": 0
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": -1,
-        "temperature": -1,
-        "sensitivity": 1,
-        "congestion": 1
+        "symptoms": {
+            "bleeding": -1,
+            "temperature": -1,
+            "sensitivity": 1,
+            "congestion": 1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": -1,
-        "temperature": 0,
-        "sensitivity": -1,
-        "congestion": -1
+        "symptoms": {
+            "bleeding": -1,
+            "temperature": 0,
+            "sensitivity": -1,
+            "congestion": -1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": -1,
-        "temperature": 0,
-        "sensitivity": -1,
-        "congestion": 0
+        "symptoms": {
+            "bleeding": -1,
+            "temperature": 0,
+            "sensitivity": -1,
+            "congestion": 0
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": -1,
-        "temperature": 0,
-        "sensitivity": -1,
-        "congestion": 1
+        "symptoms": {
+            "bleeding": -1,
+            "temperature": 0,
+            "sensitivity": -1,
+            "congestion": 1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": -1,
-        "temperature": 0,
-        "sensitivity": 0,
-        "congestion": -1
+        "symptoms": {
+            "bleeding": -1,
+            "temperature": 0,
+            "sensitivity": 0,
+            "congestion": -1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": -1,
-        "temperature": 0,
-        "sensitivity": 0,
-        "congestion": 0
+        "symptoms": {
+            "bleeding": -1,
+            "temperature": 0,
+            "sensitivity": 0,
+            "congestion": 0
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": -1,
-        "temperature": 0,
-        "sensitivity": 0,
-        "congestion": 1
+        "symptoms": {
+            "bleeding": -1,
+            "temperature": 0,
+            "sensitivity": 0,
+            "congestion": 1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": -1,
-        "temperature": 0,
-        "sensitivity": 1,
-        "congestion": -1
+        "symptoms": {
+            "bleeding": -1,
+            "temperature": 0,
+            "sensitivity": 1,
+            "congestion": -1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": -1,
-        "temperature": 0,
-        "sensitivity": 1,
-        "congestion": 0
+        "symptoms": {
+            "bleeding": -1,
+            "temperature": 0,
+            "sensitivity": 1,
+            "congestion": 0
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": -1,
-        "temperature": 0,
-        "sensitivity": 1,
-        "congestion": 1
+        "symptoms": {
+            "bleeding": -1,
+            "temperature": 0,
+            "sensitivity": 1,
+            "congestion": 1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": -1,
-        "temperature": 1,
-        "sensitivity": -1,
-        "congestion": -1
+        "symptoms": {
+            "bleeding": -1,
+            "temperature": 1,
+            "sensitivity": -1,
+            "congestion": -1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": -1,
-        "temperature": 1,
-        "sensitivity": -1,
-        "congestion": 0
+        "symptoms": {
+            "bleeding": -1,
+            "temperature": 1,
+            "sensitivity": -1,
+            "congestion": 0
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": -1,
-        "temperature": 1,
-        "sensitivity": -1,
-        "congestion": 1
+        "symptoms": {
+            "bleeding": -1,
+            "temperature": 1,
+            "sensitivity": -1,
+            "congestion": 1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": -1,
-        "temperature": 1,
-        "sensitivity": 0,
-        "congestion": -1
+        "symptoms": {
+            "bleeding": -1,
+            "temperature": 1,
+            "sensitivity": 0,
+            "congestion": -1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": -1,
-        "temperature": 1,
-        "sensitivity": 0,
-        "congestion": 0
+        "symptoms": {
+            "bleeding": -1,
+            "temperature": 1,
+            "sensitivity": 0,
+            "congestion": 0
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": -1,
-        "temperature": 1,
-        "sensitivity": 0,
-        "congestion": 1
+        "symptoms": {
+            "bleeding": -1,
+            "temperature": 1,
+            "sensitivity": 0,
+            "congestion": 1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": -1,
-        "temperature": 1,
-        "sensitivity": 1,
-        "congestion": -1
+        "symptoms": {
+            "bleeding": -1,
+            "temperature": 1,
+            "sensitivity": 1,
+            "congestion": -1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": -1,
-        "temperature": 1,
-        "sensitivity": 1,
-        "congestion": 0
+        "symptoms": {
+            "bleeding": -1,
+            "temperature": 1,
+            "sensitivity": 1,
+            "congestion": 0
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": -1,
-        "temperature": 1,
-        "sensitivity": 1,
-        "congestion": 1
+        "symptoms": {
+            "bleeding": -1,
+            "temperature": 1,
+            "sensitivity": 1,
+            "congestion": 1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 0,
-        "temperature": -1,
-        "sensitivity": -1,
-        "congestion": -1
+        "symptoms": {
+            "bleeding": 0,
+            "temperature": -1,
+            "sensitivity": -1,
+            "congestion": -1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 0,
-        "temperature": -1,
-        "sensitivity": -1,
-        "congestion": 0
+        "symptoms": {
+            "bleeding": 0,
+            "temperature": -1,
+            "sensitivity": -1,
+            "congestion": 0
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 0,
-        "temperature": -1,
-        "sensitivity": -1,
-        "congestion": 1
+        "symptoms": {
+            "bleeding": 0,
+            "temperature": -1,
+            "sensitivity": -1,
+            "congestion": 1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 0,
-        "temperature": -1,
-        "sensitivity": 0,
-        "congestion": -1
+        "symptoms": {
+            "bleeding": 0,
+            "temperature": -1,
+            "sensitivity": 0,
+            "congestion": -1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 0,
-        "temperature": -1,
-        "sensitivity": 0,
-        "congestion": 0
+        "symptoms": {
+            "bleeding": 0,
+            "temperature": -1,
+            "sensitivity": 0,
+            "congestion": 0
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 0,
-        "temperature": -1,
-        "sensitivity": 0,
-        "congestion": 1
+        "symptoms": {
+            "bleeding": 0,
+            "temperature": -1,
+            "sensitivity": 0,
+            "congestion": 1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 0,
-        "temperature": -1,
-        "sensitivity": 1,
-        "congestion": -1
+        "symptoms": {
+            "bleeding": 0,
+            "temperature": -1,
+            "sensitivity": 1,
+            "congestion": -1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 0,
-        "temperature": -1,
-        "sensitivity": 1,
-        "congestion": 0
+        "symptoms": {
+            "bleeding": 0,
+            "temperature": -1,
+            "sensitivity": 1,
+            "congestion": 0
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 0,
-        "temperature": -1,
-        "sensitivity": 1,
-        "congestion": 1
+        "symptoms": {
+            "bleeding": 0,
+            "temperature": -1,
+            "sensitivity": 1,
+            "congestion": 1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 0,
-        "temperature": 0,
-        "sensitivity": -1,
-        "congestion": -1
+        "symptoms": {
+            "bleeding": 0,
+            "temperature": 0,
+            "sensitivity": -1,
+            "congestion": -1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 0,
-        "temperature": 0,
-        "sensitivity": -1,
-        "congestion": 0
+        "symptoms": {
+            "bleeding": 0,
+            "temperature": 0,
+            "sensitivity": -1,
+            "congestion": 0
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 0,
-        "temperature": 0,
-        "sensitivity": -1,
-        "congestion": 1
+        "symptoms": {
+            "bleeding": 0,
+            "temperature": 0,
+            "sensitivity": -1,
+            "congestion": 1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 0,
-        "temperature": 0,
-        "sensitivity": 0,
-        "congestion": -1
+        "symptoms": {
+            "bleeding": 0,
+            "temperature": 0,
+            "sensitivity": 0,
+            "congestion": -1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 0,
-        "temperature": 0,
-        "sensitivity": 0,
-        "congestion": 0
+        "symptoms": {
+            "bleeding": 0,
+            "temperature": 0,
+            "sensitivity": 0,
+            "congestion": 0
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 0,
-        "temperature": 0,
-        "sensitivity": 0,
-        "congestion": 1
+        "symptoms": {
+            "bleeding": 0,
+            "temperature": 0,
+            "sensitivity": 0,
+            "congestion": 1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 0,
-        "temperature": 0,
-        "sensitivity": 1,
-        "congestion": -1
+        "symptoms": {
+            "bleeding": 0,
+            "temperature": 0,
+            "sensitivity": 1,
+            "congestion": -1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 0,
-        "temperature": 0,
-        "sensitivity": 1,
-        "congestion": 0
+        "symptoms": {
+            "bleeding": 0,
+            "temperature": 0,
+            "sensitivity": 1,
+            "congestion": 0
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 0,
-        "temperature": 0,
-        "sensitivity": 1,
-        "congestion": 1
+        "symptoms": {
+            "bleeding": 0,
+            "temperature": 0,
+            "sensitivity": 1,
+            "congestion": 1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 0,
-        "temperature": 1,
-        "sensitivity": -1,
-        "congestion": -1
+        "symptoms": {
+            "bleeding": 0,
+            "temperature": 1,
+            "sensitivity": -1,
+            "congestion": -1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 0,
-        "temperature": 1,
-        "sensitivity": -1,
-        "congestion": 0
+        "symptoms": {
+            "bleeding": 0,
+            "temperature": 1,
+            "sensitivity": -1,
+            "congestion": 0
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 0,
-        "temperature": 1,
-        "sensitivity": -1,
-        "congestion": 1
+        "symptoms": {
+            "bleeding": 0,
+            "temperature": 1,
+            "sensitivity": -1,
+            "congestion": 1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 0,
-        "temperature": 1,
-        "sensitivity": 0,
-        "congestion": -1
+        "symptoms": {
+            "bleeding": 0,
+            "temperature": 1,
+            "sensitivity": 0,
+            "congestion": -1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 0,
-        "temperature": 1,
-        "sensitivity": 0,
-        "congestion": 0
+        "symptoms": {
+            "bleeding": 0,
+            "temperature": 1,
+            "sensitivity": 0,
+            "congestion": 0
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 0,
-        "temperature": 1,
-        "sensitivity": 0,
-        "congestion": 1
+        "symptoms": {
+            "bleeding": 0,
+            "temperature": 1,
+            "sensitivity": 0,
+            "congestion": 1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 0,
-        "temperature": 1,
-        "sensitivity": 1,
-        "congestion": -1
+        "symptoms": {
+            "bleeding": 0,
+            "temperature": 1,
+            "sensitivity": 1,
+            "congestion": -1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 0,
-        "temperature": 1,
-        "sensitivity": 1,
-        "congestion": 0
+        "symptoms": {
+            "bleeding": 0,
+            "temperature": 1,
+            "sensitivity": 1,
+            "congestion": 0
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 0,
-        "temperature": 1,
-        "sensitivity": 1,
-        "congestion": 1
+        "symptoms": {
+            "bleeding": 0,
+            "temperature": 1,
+            "sensitivity": 1,
+            "congestion": 1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 1,
-        "temperature": -1,
-        "sensitivity": -1,
-        "congestion": -1
+        "symptoms": {
+            "bleeding": 1,
+            "temperature": -1,
+            "sensitivity": -1,
+            "congestion": -1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 1,
-        "temperature": -1,
-        "sensitivity": -1,
-        "congestion": 0
+        "symptoms": {
+            "bleeding": 1,
+            "temperature": -1,
+            "sensitivity": -1,
+            "congestion": 0
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 1,
-        "temperature": -1,
-        "sensitivity": -1,
-        "congestion": 1
+        "symptoms": {
+            "bleeding": 1,
+            "temperature": -1,
+            "sensitivity": -1,
+            "congestion": 1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 1,
-        "temperature": -1,
-        "sensitivity": 0,
-        "congestion": -1
+        "symptoms": {
+            "bleeding": 1,
+            "temperature": -1,
+            "sensitivity": 0,
+            "congestion": -1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 1,
-        "temperature": -1,
-        "sensitivity": 0,
-        "congestion": 0
+        "symptoms": {
+            "bleeding": 1,
+            "temperature": -1,
+            "sensitivity": 0,
+            "congestion": 0
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 1,
-        "temperature": -1,
-        "sensitivity": 0,
-        "congestion": 1
+        "symptoms": {
+            "bleeding": 1,
+            "temperature": -1,
+            "sensitivity": 0,
+            "congestion": 1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 1,
-        "temperature": -1,
-        "sensitivity": 1,
-        "congestion": -1
+        "symptoms": {
+            "bleeding": 1,
+            "temperature": -1,
+            "sensitivity": 1,
+            "congestion": -1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 1,
-        "temperature": -1,
-        "sensitivity": 1,
-        "congestion": 0
+        "symptoms": {
+            "bleeding": 1,
+            "temperature": -1,
+            "sensitivity": 1,
+            "congestion": 0
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 1,
-        "temperature": -1,
-        "sensitivity": 1,
-        "congestion": 1
+        "symptoms": {
+            "bleeding": 1,
+            "temperature": -1,
+            "sensitivity": 1,
+            "congestion": 1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 1,
-        "temperature": 0,
-        "sensitivity": -1,
-        "congestion": -1
+        "symptoms": {
+            "bleeding": 1,
+            "temperature": 0,
+            "sensitivity": -1,
+            "congestion": -1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 1,
-        "temperature": 0,
-        "sensitivity": -1,
-        "congestion": 0
+        "symptoms": {
+            "bleeding": 1,
+            "temperature": 0,
+            "sensitivity": -1,
+            "congestion": 0
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 1,
-        "temperature": 0,
-        "sensitivity": -1,
-        "congestion": 1
+        "symptoms": {
+            "bleeding": 1,
+            "temperature": 0,
+            "sensitivity": -1,
+            "congestion": 1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 1,
-        "temperature": 0,
-        "sensitivity": 0,
-        "congestion": -1
+        "symptoms": {
+            "bleeding": 1,
+            "temperature": 0,
+            "sensitivity": 0,
+            "congestion": -1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 1,
-        "temperature": 0,
-        "sensitivity": 0,
-        "congestion": 0
+        "symptoms": {
+            "bleeding": 1,
+            "temperature": 0,
+            "sensitivity": 0,
+            "congestion": 0
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 1,
-        "temperature": 0,
-        "sensitivity": 0,
-        "congestion": 1
+        "symptoms": {
+            "bleeding": 1,
+            "temperature": 0,
+            "sensitivity": 0,
+            "congestion": 1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 1,
-        "temperature": 0,
-        "sensitivity": 1,
-        "congestion": -1
+        "symptoms": {
+            "bleeding": 1,
+            "temperature": 0,
+            "sensitivity": 1,
+            "congestion": -1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 1,
-        "temperature": 0,
-        "sensitivity": 1,
-        "congestion": 0
+        "symptoms": {
+            "bleeding": 1,
+            "temperature": 0,
+            "sensitivity": 1,
+            "congestion": 0
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 1,
-        "temperature": 0,
-        "sensitivity": 1,
-        "congestion": 1
+        "symptoms": {
+            "bleeding": 1,
+            "temperature": 0,
+            "sensitivity": 1,
+            "congestion": 1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 1,
-        "temperature": 1,
-        "sensitivity": -1,
-        "congestion": -1
+        "symptoms": {
+            "bleeding": 1,
+            "temperature": 1,
+            "sensitivity": -1,
+            "congestion": -1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 1,
-        "temperature": 1,
-        "sensitivity": -1,
-        "congestion": 0
+        "symptoms": {
+            "bleeding": 1,
+            "temperature": 1,
+            "sensitivity": -1,
+            "congestion": 0
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 1,
-        "temperature": 1,
-        "sensitivity": -1,
-        "congestion": 1
+        "symptoms": {
+            "bleeding": 1,
+            "temperature": 1,
+            "sensitivity": -1,
+            "congestion": 1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 1,
-        "temperature": 1,
-        "sensitivity": 0,
-        "congestion": -1
+        "symptoms": {
+            "bleeding": 1,
+            "temperature": 1,
+            "sensitivity": 0,
+            "congestion": -1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 1,
-        "temperature": 1,
-        "sensitivity": 0,
-        "congestion": 0
+        "symptoms": {
+            "bleeding": 1,
+            "temperature": 1,
+            "sensitivity": 0,
+            "congestion": 0
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 1,
-        "temperature": 1,
-        "sensitivity": 0,
-        "congestion": 1
+        "symptoms": {
+            "bleeding": 1,
+            "temperature": 1,
+            "sensitivity": 0,
+            "congestion": 1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 1,
-        "temperature": 1,
-        "sensitivity": 1,
-        "congestion": -1
+        "symptoms": {
+            "bleeding": 1,
+            "temperature": 1,
+            "sensitivity": 1,
+            "congestion": -1
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 1,
-        "temperature": 1,
-        "sensitivity": 1,
-        "congestion": 0
+        "symptoms": {
+            "bleeding": 1,
+            "temperature": 1,
+            "sensitivity": 1,
+            "congestion": 0
+        }
     },
     {
         "name": "",
         "biome": "",
-        "bleeding": 1,
-        "temperature": 1,
-        "sensitivity": 1,
-        "congestion": 1
+        "symptoms": {
+            "bleeding": 1,
+            "temperature": 1,
+            "sensitivity": 1,
+            "congestion": 1
+        }
     }
 ]

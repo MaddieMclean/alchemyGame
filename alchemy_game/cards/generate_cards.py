@@ -2,14 +2,16 @@ import json
 from itertools import product
 from dataclasses import asdict
 
-from alchemy_game.cards import Ingredient
+from alchemy_game.cards import Ingredient, Symptoms
 from alchemy_game.utils import CardValues
 
 
 def generate_ingredients():
     cards = [
         Ingredient(
-            name="", biome="", bleeding=b, temperature=t, sensitivity=s, congestion=c
+            name="",
+            biome="",
+            symptoms=Symptoms(bleeding=b, temperature=t, sensitivity=s, congestion=c),
         )
         for b, t, s, c in product(CardValues, repeat=4)
     ]
