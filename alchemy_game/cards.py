@@ -20,6 +20,7 @@ class Card:
 class Artefact(Card):
     biome: str
     text: str
+    tapped: bool
 
 
 @dataclass
@@ -50,6 +51,7 @@ class Patient(Ingredient):
 
 
 def create_potion(card_1: Ingredient, card_2: Ingredient) -> Potion:
+    # todo Should this be in Ingredient?
     return Potion(
         name="",
         biome="",
