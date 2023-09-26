@@ -1,20 +1,14 @@
-from dataclasses import dataclass, asdict
-from typing import Iterator
+from dataclasses import dataclass
+from typing import NamedTuple
 
 from alchemy_game.utils import CardValues
 
 
-@dataclass
-class Symptoms:
+class Symptoms(NamedTuple):
     bleeding: CardValues
     temperature: CardValues
     sensitivity: CardValues
     congestion: CardValues
-
-    def __iter__(self) -> Iterator[CardValues]:
-        return iter(
-            (self.bleeding, self.temperature, self.sensitivity, self.congestion)
-        )
 
 
 @dataclass
@@ -53,7 +47,7 @@ class Patient(Ingredient):
         self.symptoms = Symptoms(*cured)
 
     def cured(self) -> bool:
-        return all(n == CardValues.neutral for n in asdict(self.symptoms).values())
+        return all(n == CardValues.neutral for n in self.symptoms)
 
 
 def create_potion(card_1: Ingredient, card_2: Ingredient) -> Potion:
