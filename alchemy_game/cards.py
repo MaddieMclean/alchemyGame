@@ -39,10 +39,10 @@ class Patient(Ingredient):
         # updates if potion neutralises the symptom, else keeps current symptom
         # CardValues.neutral.value is false, which is why the loop works
         self.symptoms = Symptoms(
-            *(
+            *[
                 s if (s + p).value else CardValues.neutral
                 for s, p in zip(self.symptoms, potion.symptoms)
-            )
+            ]
         )
 
     def cured(self) -> bool:
