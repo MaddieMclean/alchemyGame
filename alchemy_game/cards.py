@@ -36,15 +36,14 @@ class Potion(Ingredient):
 @dataclass
 class Patient(Ingredient):
     def cure(self, potion: Potion):
-        # todo improve this
-        cured = []
-        for symptom, treatment in zip(self.symptoms, potion.symptoms):
-            if symptom + treatment == CardValues.neutral:
-                cured.append(CardValues.neutral)
-            else:
-                cured.append(symptom)
-
-        self.symptoms = Symptoms(*cured)
+        # updates if potion neutralises the symptom, else keeps current symptom
+        # CardValues.neutral.value is false, which is why the loop works
+        self.symptoms = Symptoms(
+            *(
+                s if (s + p).value else CardValues.neutral
+                for s, p in zip(self.symptoms, potion.symptoms)
+            )
+        )
 
     def cured(self) -> bool:
         return all(n == CardValues.neutral for n in self.symptoms)
